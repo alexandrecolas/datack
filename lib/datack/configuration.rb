@@ -3,7 +3,7 @@ module Datack
     attr_accessor :dir_path, :debug
 
     def initialize
-      @dir_path ||= './db/datas/*.yml'
+      @dir_path ||= "#{Rails.root}/db/datas"
       @debug ||= false
     end
   end
