@@ -15,7 +15,6 @@ module Datack
 
         datas[:records].each do |record|
           klass.create(record) unless klass.exists?(record)
-          sleep(1)
           progress.increment
         end
       end

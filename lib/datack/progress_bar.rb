@@ -1,7 +1,4 @@
-
-
 module Datack
-
   module ProgressBar
 
     def self.initialize(total)
@@ -14,5 +11,4 @@ module Datack
     end
 
   end
-
 end
