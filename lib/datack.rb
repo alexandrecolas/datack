@@ -1,5 +1,6 @@
 require "datack/version"
 
+require "datack/configuration"
+
 module Datack
-  # Your code goes here...
 end

@@ -23,5 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-nav"
 
-  
+  spec.add_development_dependency "rspec"
+
+  spec.add_runtime_dependency "ruby-progressbar", '~> 1.5'
 end
