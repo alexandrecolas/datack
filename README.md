@@ -1,0 +1,25 @@
+# Datack
+
+Import data from yaml files to database.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+gem 'hermes', git: 'git@github.com:alexandrecolas/datack.git'
+
+And then execute:
+
+$ bundle install
+
+## Usage
+
+TODO: Write usage instructions here
+
+## Contributing
+
+1. Fork it ( https://github.com/[my-github-username]/datack/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
